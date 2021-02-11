@@ -1,0 +1,10 @@
+# ignore .git and .cache folders
+.eggs
+.git
+.cache
+build
+data
+dist
+docker_build
+servier.egg-info
+tests

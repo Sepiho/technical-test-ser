@@ -1,0 +1,17 @@
+name: servier_dock
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - pandas
+  - pip
+  - pip:
+    - keras
+    - keras-preprocessing
+    - numpy
+    - scipy
+    - sklearn
+    - tensorflow==2.4.1
+    - tensorflow-estimator==2.4.0
+prefix: /home/sepiho/miniconda/envs/servier_dock
